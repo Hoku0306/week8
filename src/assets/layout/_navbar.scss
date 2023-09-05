@@ -1,0 +1,45 @@
+body {
+  position: relative;
+}
+
+.navbar .hamburger {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.navToggle {
+  top: 64px;
+  left: 0px;
+  max-height: 0px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.8s;
+  z-index: 2;
+}
+
+@media (max-width: 640px) {
+  .navToggle {
+    top: 54px;
+  }
+}
+
+.navToggle.active {
+  border-top: 1px solid white;
+  max-height: 424px;
+  padding: 23px 0;
+  z-index: 5;
+}
+
+.positionBorder::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  border: 1px solid white;
+  top: 80px;
+}
+
+@media (max-width: 640px) {
+  .positionBorder::before {
+    top: 68px;
+  }
+}

@@ -1,0 +1,88 @@
+.bg-homeIntro {
+  height: 1089px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(8px);
+}
+
+@media (max-width: 1296px) {
+  .bg-homeIntro {
+    height: 880px;
+  }
+}
+
+.bg-homeIntroSm {
+  height: 791px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blurEffect {
+  backdrop-filter: blur(8px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.introText::after {
+  position: absolute;
+  content: '';
+  width: 100vw;
+  border: 1px solid white;
+  left: 0;
+  top: 350px;
+}
+
+@media (max-width: 1296px) {
+  .introText::after {
+    top: 265px;
+  }
+}
+
+@media (max-width: 374px) {
+  .introText::after {
+    top: 200px;
+  }
+}
+
+.shareComment {
+  width: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .shareComment {
+    width: auto;
+  }
+}
+
+.share .material-symbols-outlined {
+  font-size: 80px;
+}
+
+.contact .decoration::after {
+  position: absolute;
+  content: '';
+  width: 124px;
+  height: 12px;
+  border-radius: 12px;
+  left: 20px;
+  background-color: white;
+}
+
+.contact .material-symbols-sharp {
+  font-size: 80px;
+}
+
+@media (max-width: 1024px) {
+  .contact .material-symbols-sharp {
+    font-size: 60px;
+  }
+}
+
+.contact button .material-symbols-sharp {
+  font-size: 24px;
+}

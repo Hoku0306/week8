@@ -1,0 +1,121 @@
+<!-- background for laptop+ -->
+<section class="hidden laptop:block relative">
+  <div class="bg-homeBanner"></div>
+  <div
+    class="grid grid-cols-2 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-dark to-black"
+  >
+    <div class="bg-homeIntro"><div class="blurEffect"></div></div>
+  </div>
+</section>
+<!-- bannerContent+intro for desktop -->
+<section class="hidden laptop:block absolute top-[79px]">
+  <!-- banner -->
+  <div class="px-20 pt-14">
+    <div class="picture grid grid-cols-4 gap-x-8 items-end text-white">
+      <div>
+        <p class="border-b mb-14 pb-1 font-700">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
+        <div class="relative">
+          <img src="/public/images/diane.png" alt="diane" class="shadow-standard shadow-banner" />
+          <p
+            class="font-shrik absolute top-4 w-full text-center text-[32px]/normal tablet:text-xl/normal desktop:text-[32px]/normal"
+          >
+            Diane
+          </p>
+        </div>
+      </div>
+      <div class="col-span-2">
+        <div class="text flex flex-col justify-center items-center mb-6">
+          <img src="/public/images/circle.png" alt="circle" class="w-[196px] h-[196px] mb-14" />
+          <p
+            class="font-shrik text-[32px]/normal tablet:text-xl/normal desktop:text-[32px]/normal flex justify-between w-full"
+          >
+            <span>A</span><span>L</span><span>P</span><span>H</span><span>A</span><span>B</span
+            ><span>O</span><span>X</span><span>+</span>
+          </p>
+          <p class="tracking-[16px]">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+        </div>
+        <div class="grid grid-cols-2 gap-x-8">
+          <div class="relative">
+            <img src="/public/images/felix.png" alt="felix" />
+            <p
+              class="font-shrik absolute top-4 w-full text-center text-[32px]/normal tablet:text-xl/normal desktop:text-[32px]/normal"
+            >
+              felix
+            </p>
+          </div>
+          <div class="relative">
+            <img src="/public/images/karina.png" alt="karina" />
+            <p
+              class="font-shrik absolute top-4 w-full text-center text-[32px]/normal tablet:text-xl/normal desktop:text-[32px]/normal"
+            >
+              Karina
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col h-full">
+        <p class="font-700 pt-1 border-t mb-auto">ALPHABOX+ STUDIO</p>
+        <p class="text-[#AD93CF]">Copyright © 2023 Hexschool.</p>
+        <div class="relative mt-14">
+          <img src="/public/images/vito.png" alt="vito" />
+          <p
+            class="font-shrik absolute top-4 w-full text-center text-[32px]/normal tablet:text-xl/normal desktop:text-[32px]/normal"
+          >
+            Vito
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-standard to-deepest h-10 mt-10"></div>
+  </div>
+  <!-- intro -->
+  <div class="intro relative text-white">
+    <div class="mx-20 introText pt-1 pb-4 text-5xl/normal tracking-[48px]">
+      <h2 class="mb-3">什麼是</h2>
+      <h2>ALPHABOX+</h2>
+    </div>
+    <div class="flex mx-20 py-8">
+      <button type="button">
+        <img src="/public/images/arrow_prev.png" alt="prev" class="arrow" />
+      </button>
+      <div class="showCase mx-[52px]">
+        <img src="/public/images/carousel.png" alt="carousel" />
+      </div>
+      <button type="button">
+        <img src="/public/images/arrow_next.png" alt="next" class="arrow" />
+      </button>
+    </div>
+    <div class="bg-gradient-to-r from-standard to-deepest h-10 mx-20"></div>
+  </div>
+</section>
+<!-- bannerContent+intro for laptop -->
+<!-- <section
+    class="mx-20 container hidden laptop:block desktop:hidden absolute top-[79px] text-white"
+  >
+    <div class="grid grid-cols-3 grid-rows-2">
+      <div class="my-auto">
+        <p class="border-b pb-1 font-700">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="/public/images/circle.png" alt="circle" class="w-[196px] h-[196px]" />
+      </div>
+      <div class="copyright my-auto">
+        <p class="font-700 pt-1 border-t mb-auto">ALPHABOX+ STUDIO</p>
+        <p class="text-[#AD93CF]">Copyright © 2023 Hexschool.</p>
+      </div>
+      <div class="text col-span-3">
+        <p
+          class="font-shrik text-[32px]/normal tablet:text-xl/normal desktop:text-[32px]/normal flex justify-between w-full"
+        >
+          <span>A</span><span>L</span><span>P</span><span>H</span><span>A</span><span>B</span
+          ><span>O</span><span>X</span><span>+</span>
+        </p>
+        <p class="tracking-[16px]">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+      </div>
+    </div>
+  </section> -->
+<!-- background for tablet- -->
+<section class="laptop:hidden">
+  <div class="bg-gradient-to-b from-standard to-deepest h-[1778px]"></div>
+  <div class="bg-homeIntroSm"><div class="blurEffect"></div></div>
+</section>
